@@ -7,7 +7,7 @@ sentences = 0
 words = 0
 
 
-f= open("f1.csv", encoding="utf-8")
+f= open("steam_description_data.csv", encoding="utf-8")
 csv_reader = csv.reader(f)
 for line in csv_reader:
             char = ",".join(line)
